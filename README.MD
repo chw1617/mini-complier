@@ -17,8 +17,9 @@
      ]
     ```
   2. 语法分析 tokens -> ast 遍历生成的tokens的每一个字符进行语法分析生成新的抽象语法树ast
+
     ```
-     const ast = {
+      const ast = {
          type: 'Program',
          body: [{
             type: 'CallExpression',
@@ -41,7 +42,6 @@
                 }]
             }]
      }
-
     ```
   3. 转换ast,对于生成的ast,通过转换器+遍历器（深度优先遍历算法）进一步生成需要的新ast
 
