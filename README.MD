@@ -34,13 +34,14 @@
                 params: [{
                     type: 'NumberLiteral',
                     value: '4',
-                }, {
+                }, ∏
                     type: 'NumberLiteral',
                     value: '2',
                 }]
                 }]
             }]
      }
+
     ```
   3. 转换ast,对于生成的ast,通过转换器+遍历器（深度优先遍历算法）进一步生成需要的新ast
 
